@@ -13,3 +13,9 @@
 ![Test Image](https://picsum.photos/200)
 
 [Test-link](https://example.com)
+
+```python
+print("multiple line code block")
+```
+
+`single line`
