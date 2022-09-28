@@ -1,0 +1,24 @@
+h3 {
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+/* Rigth order is link - visited - hover - active */
+a:link {
+    /* Unvisited */
+    background-color: aquamarine;
+    padding: 10px;
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+}
+a:hover{
+    background-color: yellow;
+    text-decoration: underline;
+}
+a:active{
+    /* When user clicks the anchor element */
+    background-color: green;
+}

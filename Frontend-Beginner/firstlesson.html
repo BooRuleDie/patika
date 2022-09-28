@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- These meta tags helps search engines to show your website when someone searched something about you specified below-->
+    <meta name="keywords" content="First, Lesson, Yeditepe, keyword1, keyword2">
+
+    <meta name="description" content="Website about my first lesson about web design">
+
+    <meta name="author" content="Eren Burulday">
+    
+    <!-- Refresh page every 30 seconds -->
+    <meta http-equiv="refresh" content="30">
+
+    <!-- For responsive web design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>First lesson</title>
+
+    <!-- Internal CSS -->
+    <style>
+        h2 {
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        p {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="CSS/test.css">
+</head>
+<body style="background-color: black;">
+    
+    <!-- Inline CSS -->
+    <h1 style="color:blue;text-align:center;font-family:Arial, Helvetica, sans-serif;font-size: 10vw">My First Heading</h1>
+    <!-- 
+        Standard font size: 12
+        Standard font family: Times New Roman 
+        vw: only responsive meter for font size
+
+        Priority: Inline CSS > Internal CSS > External CSS 
+    -->
+    
+    <p style="color:green">My first paragraph</p>
+
+    <h2>Internal CSS showcase</h2>
+    <h3>External CSS showcase</h3>
+
+    <!-- Whitespace chars &nbsp: space-->
+    <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Similique et laborum quis aliquid <br><br> quidem dolore perferendis amet pariatur sint, fugiat, rem nesciunt ad. Dicta inventore itaque animi! Ex, placeat <br><br> consectetur?</p>
+
+    <!-- preformatted text tag 
+        downside of <pre>: it's not responsive unlike <p>
+    -->
+    <pre style="color: white;font-family: Arial, Helvetica, sans-serif;">I don't need to specify spaces and new lines now Lorem ipsum dolor sit amet consectetur adipisicing elit..
+        as
+        you
+        can 
+        see.
+        test                         test 
+    </pre>
+
+    <!-- Text formatting -->
+    <p>
+        <b>bold</b>
+        <i>italic</i>
+        <em>emphasized</em>
+        <u>Underlined</u>
+        <ins>Underlined 2</ins> <!-- inserted tag -->
+        <br><br>
+        <u><i><b>Combination of formattings</b></i></u>
+    </p>
+    
+    <!-- superscript subscript -->
+    <p>
+        The floor are of the flat is 200 m.<sup>2</sup>. 
+        The log<sub>2</sub><sup>4</sup> is 2.
+    </p>
+
+    <!-- mark element = highlight --> 
+    <p>
+        Highlighted text <mark style="background-color: red;">here</mark>
+    </p>
+
+    <!-- del = overline -->
+    <p> <del>Overlined</del> </p>
+
+    <!-- 
+        target="_self" -> Same tab
+        target="_blank" -> New tab 
+        target="_top" -> Full size open in the same tab
+    -->
+    <a href="https://example.com" target="_blank">Don't click me</a>
+
+    <img src="https://m.media-amazon.com/images/M/MV5BMTQ5MzkzNTIyN15BMl5BanBnXkFtZTYwNzUzOTA2._V1_UY1200_CR85,0,630,1200_AL_.jpg" width="100" height="200" style="float: right;">
+
+    <!-- Centering an image -->
+    <img src="https://m.media-amazon.com/images/M/MV5BMTQ5MzkzNTIyN15BMl5BanBnXkFtZTYwNzUzOTA2._V1_UY1200_CR85,0,630,1200_AL_.jpg" style="display: block; margin-left: auto;margin-right: auto;width: 25%;">
+</body>
+</html>
