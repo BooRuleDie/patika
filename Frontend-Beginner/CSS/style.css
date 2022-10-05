@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    padding: 5px;
+    color: purple;
+    text-decoration: underline;
+}
+
+h4, .yellowish {
+    color: rgb(172, 137, 28);
+}
+
+ol li {
+    margin-top: 50px;
+}
