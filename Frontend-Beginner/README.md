@@ -2,11 +2,11 @@
 ## Heading 2
 ### Heading 3
 
-* Bullot 1
-* Bullot 2
+* Bullet 1
+* Bullet 2
 
-- Bullot 3
-- Bullot 4
+- Bullet 3
+- Bullet 4
 
 **Bold** *Italic* ***Combination***
 
