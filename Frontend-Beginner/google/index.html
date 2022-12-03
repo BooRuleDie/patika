@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: #ffffff;
+            font-family: arial,sans-serif;
+            font-size: small;
+        }
+
+        /* START of navbar */
+        .navbar a {
+            display: inline-block;
+            color: #000;
+            opacity: 0.75;
+            text-decoration: none;
+            margin-right: 13px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .navbar {
+            padding-left: 28px;
+            padding-bottom: 5px;
+            padding-top: 20px;
+        }
+
+        .navbar img {
+            width: 23px;
+            opacity: .70;
+            position: absolute;
+            top: -15px;
+        }
+        
+        .opacity87 {
+            opacity: 87;
+        }
+
+        #sign-in {
+            color: #fff;
+            border: 1px solid #4285f4;
+            font-weight: bold;
+            outline: none;
+            background-color: rgb(66, 133, 244);
+            opacity: 100;
+            padding: 0 12px;
+            line-height: 28px;
+            border-radius: 2px;
+            margin-left: 30px;
+        }
+        /* END of navbar */
+
+        /* START of google-img */
+        .google-img  img{
+            height: 92px;
+            width: 272px;
+            display: block;
+            margin: auto;
+            margin-top: 100px;
+            margin-bottom: 30px;
+        }
+        /* END of google-img */
+
+        /* START of search-bar*/
+        .search-bar {
+            border-radius: 24px;
+            border: 1px solid #dfe1e5;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            width: 44%;
+            margin: 0 auto;
+            padding: 8px;
+            box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.2);
+        }
+
+        .search-icon img {
+            opacity: 0.35;
+            width: 20px;
+            margin-left: 6px;
+            margin-top: 2px;
+        }
+
+        .mic-icon img {
+            width: 25px;
+            margin-right: 5px;
+        }
+
+        .search-bar input {
+            border: none;
+            background-color: transparent;
+            outline: none;
+            width: 450px;
+            
+        }
+        /* END of search-bar */
+
+        /* START of buttons */
+        .buttons {
+            width: 23%;
+            margin: 0 auto;
+            margin-top: 18px;
+        }
+
+        .buttons input {
+            background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+            background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            color: #5F6368;
+            font-family: arial,sans-serif;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .buttons input:hover {
+            background-image: -webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#f1f1f1));
+            background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+            -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+            background-color: #f8f8f8;
+            background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+            background-image: -o-linear-gradient(top,#f8f8f8,#f1f1f1);
+            border: 1px solid #c6c6c6;
+            box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+            color: #222;
+        }
+        /* END of buttons */
+
+        /* START of footer */
+        .footer {
+            background: #f2f2f2;
+            border-top: 1px solid #e4e4e4;
+            position: fixed;
+            bottom: 0;
+            height: 40px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-left: 30px;
+        }
+
+        .footer a {
+            color: #5f6368;
+            text-decoration: none;
+            font-size: 14px;
+            margin-right: 30px;
+        }
+
+        #howsearchworks {
+            margin-right: 56%;
+        }
+        /* END of footer */
+    </style>
+</head>
+<body>
+   <div class="navbar">
+    <a href="#">About</a>
+    <a href="#" style="margin-right: 72%;">Store</a>
+    <a href="#" style="opacity: 87;">Gmail</a>
+    <a href="#" style="opacity: 87;">Images</a>
+    <a href="#" style="position: relative;"><img src="./ninesquares.png"></a>
+    <a href="#" id="sign-in">Sign in</a>
+
+   </div>
+
+   <div class="google-img">
+    <img src="./google.png" alt="">
+   </div>
+
+   <div class="search-bar">
+    <div class="search-icon">
+        <img src="./search-icon.png" alt="">
+    </div>
+    <div class="search-box">
+        <input type="text">
+    </div>
+    <div class="mic-icon">
+        <img src="./mic.png" alt="">
+    </div>
+   </div>
+
+   <div class="buttons">
+    <input type="submit" value="Google Search">
+    <input type="submit" value="I'm Feeling Lucky">
+   </div>
+
+   <div class="footer">
+    <a href="#">Advertising</a>
+    <a href="#">Business</a>
+    <a href="#" id="howsearchworks">How Search works</a>
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Settings</a>
+   </div>
+</body>
+</html>
