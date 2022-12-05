@@ -19,7 +19,3 @@ const updateTime = () => {
 }
 updateTime()
 setInterval(updateTime, 1000);
-
-// Append the time element to the HTML document
-document.body.appendChild(timeElement);
-
